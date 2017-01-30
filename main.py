@@ -2,9 +2,12 @@ import pygame
 from global_variables import *
 from init_gui import *
 from start_menu import *
+from game_window import *
 
 
 crashed = False
+
+game_intro()
 
 while not crashed:
 
@@ -12,7 +15,8 @@ while not crashed:
         if event.type == pygame.QUIT:
             crashed = True
 
-    game_intro()
+    
+    init_engine()
     pygame.display.update()
     clock.tick(60)  #sets the clock of the game
 

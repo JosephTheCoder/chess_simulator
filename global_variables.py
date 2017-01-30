@@ -1,10 +1,15 @@
 
 #Display Variables
-display_width = 800
-display_height = 600
+DISPLAY_WIDTH = 800
+DISPLAY_HEIGHT = 600
 
-#Color variables
-black = (0,0,0)
-white = (255,255,255)
-grey = (224,224,224)
-bright_grey = (240,224,224)
+START_BUTTON_W = DISPLAY_WIDTH * 0.22
+START_BUTTON_H = DISPLAY_HEIGHT * 0.2
+
+BLACK = (0,0,0)
+WHITE = (255,255,255)
+GREY = (224,224,224)
+BRIGHT_GREY = (240,224,224)
+
+#mouse variables
+LEFT = 1
